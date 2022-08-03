@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "React-Native-gallery",
+    "slug": "React-Native-gallery",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "React-Native-gallery"
+}
