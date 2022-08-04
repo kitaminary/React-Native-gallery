@@ -7,4 +7,4 @@ enum ActionTypes {
 }
 
 export const setPhotos = createAction<Photos>(ActionTypes.SET_PHOTOS);
-export const setFullPhoto = createAction<string>(ActionTypes.SET_FULL_PHOTO);
+export const setFullPhoto = createAction<string | null>(ActionTypes.SET_FULL_PHOTO);

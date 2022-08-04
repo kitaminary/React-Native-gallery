@@ -7,27 +7,25 @@ export interface State {
     id: string;
     user: User;
     urls: Urls;
-    width: number | null;
-    height: number | null;
+    description: string | null;
   };
-  fullPhoto: string;
+  fullPhoto: string | null;
 }
 
 export const initialState: State = {
   photos: {
     id: "",
-    width: null,
-    height: null,
+    description: null,
     user: {
       id: "",
       name: "",
     },
     urls: {
-      full: "",
+      regular: "",
       small: "",
     },
   },
-  fullPhoto: "",
+  fullPhoto: null,
 };
 
 const reducer = createReducer(initialState, (builder) => {

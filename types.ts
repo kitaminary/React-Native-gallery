@@ -2,8 +2,7 @@ export interface Photos {
   id: string;
   user: User;
   urls: Urls;
-  width: number;
-  height: number;
+  description: string | null;
 }
 
 export interface User {
@@ -12,6 +11,6 @@ export interface User {
 }
 
 export interface Urls {
-  full: string;
+  regular: string;
   small: string;
 }
